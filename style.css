@@ -12,6 +12,7 @@ body{
     padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 10px;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 100px;
@@ -19,8 +20,12 @@ body{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 
 }
+
 
 .logo{
     font-size: 30px;
@@ -29,7 +34,11 @@ body{
 
 ul li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
+}
+
+ul li i{
+    display: inline-block;
 }
 
 a{
@@ -45,7 +54,26 @@ a{
 }
 
 .dev-photo img{
-    border-radius: 50%;
+    border-radius: 20%;
 
 }
 
+/* Media Query para estilos responsive */
+@media screen and (max-width: 768px) {
+    ul li {
+        display: inline-block;
+        padding: 1px;
+    } 
+
+    .logo {
+        font-size: 75px;
+    }
+    
+
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+}
