@@ -1,4 +1,51 @@
 body{
     background-color: #020914;
-    background: linear-gradient(to right, #020914, #2f2a49);
+    background: linear-gradient(to left, #020914, #141318);
+    margin: 0;
+    padding: 0;
 }
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 100px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+
+}
+
+.logo{
+    font-size: 30px;
+    padding: 0px 20px ;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    text-decoration: none;
+    color:#f9532d;
+}
+
+
+.info-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.dev-photo img{
+    border-radius: 50%;
+
+}
+
