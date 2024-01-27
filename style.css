@@ -41,7 +41,7 @@ body{
 
 .logo{
     color:#f9532d;
-    font-size: 25px;
+    font-size: 35px;
     text-decoration: none;
     font-weight: 600;
     cursor: pointer;
@@ -49,7 +49,7 @@ body{
 
 .navbar a{
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     margin-left: 35px;
     transition: .3s;
@@ -91,7 +91,7 @@ body{
         width: 100%;
         padding: .5rem 4%;
         background: rgba(255, 255, 255, .2);
-        border-bottom: 2px solid rgba(255, 255, 255, .2);
+        border-bottom: 2px solid rgba(228, 228, 228, 0.2);
         display: none;
     }
 
@@ -155,17 +155,20 @@ body{
     }
 }
 
-
+/*SALUDO HI THERE*/
 .saludo{
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+/*DEV NAME*/
 .dev-info .name{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 70px;
     margin-bottom: 10px;
 }
 
+/*LETRA FRONT-END DEVELOPER*/
 .dev-info .career{
     color:#f9532d;
     font-weight: bold;
@@ -174,7 +177,46 @@ body{
 }
 
 
+.description-dev{
+    font-size: 20px;
+}
 
+/*BOTÓN CV*/
+.CV{
+    background-color: #f9532d;
+    color: white;
+    font-size: 18px;
+    margin-top: 1px;
+    border-radius: 10px;
+    width: 350px;
+    padding: 18px;
+    box-shadow: 0px 2px 18px 0px #f9532d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: .5s;
+    text-align: center;
+}
 
+.CV:hover{
+    font-size: 19px;
+    transition: .5s;
+}
 
+.social-media{
+    font-size: 50px;
+    margin-top: 20px;
+
+}
+
+.social-media a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+    position: relative;
+}
+
+.social-media a:hover{
+    color: #f9532d;
+    text-shadow: 0 0 5px #f9532d, 0 0 5px #f9532d, 0 0 10px #f9532d, 0 0 10px #f9532d;
+}
 
