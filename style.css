@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
@@ -22,6 +21,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .header::before{
@@ -115,7 +115,7 @@ body{
 .info-container{
     display: flex;
     justify-content: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family:inherit;
     align-items: center;
     justify-content: center;
     max-width: 100%;
@@ -132,6 +132,7 @@ body{
 .dev-info{
     margin-left: 20px;
     text-align: left;
+    max-width: 400px;
 }
 
 .dev-info span{
@@ -150,7 +151,26 @@ body{
         margin-left: 0;
         margin-top: 20px;
         justify-content: center;
+        
     }
+}
+
+
+.saludo{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.dev-info .name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.dev-info .career{
+    color:#f9532d;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 
