@@ -155,11 +155,15 @@ body{
     }
 }
 
+
+
 /*SALUDO HI THERE*/
 .saludo{
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 10px;
 }
+
+
 
 /*DEV NAME*/
 .dev-info .name{
@@ -167,6 +171,8 @@ body{
     font-size: 70px;
     margin-bottom: 10px;
 }
+
+
 
 /*LETRA FRONT-END DEVELOPER*/
 .dev-info .career{
@@ -176,10 +182,11 @@ body{
     margin-bottom: 20px;
 }
 
-
 .description-dev{
     font-size: 20px;
 }
+
+
 
 /*BOTÓN CV*/
 .CV{
@@ -187,6 +194,7 @@ body{
     color: white;
     font-size: 18px;
     margin-top: 1px;
+    border: none;
     border-radius: 10px;
     width: 350px;
     padding: 18px;
@@ -197,11 +205,9 @@ body{
     text-align: center;
 }
 
-.CV:hover{
-    font-size: 19px;
-    transition: .5s;
-}
 
+
+/*ICONOS DE REDES SOCIALES */
 .social-media{
     font-size: 50px;
     margin-top: 20px;
@@ -219,4 +225,36 @@ body{
     color: #f9532d;
     text-shadow: 0 0 5px #f9532d, 0 0 5px #f9532d, 0 0 10px #f9532d, 0 0 10px #f9532d;
 }
+
+/*ABOUT CONTAINER*/
+
+.About-me{
+    text-align: justify;
+    max-width: 900px;
+    padding: 20px;
+    margin: auto; /* Centra horizontalmente */
+    padding-top: 250px;
+    font-size: 25px;
+}
+
+/*ABOUT TITLE*/
+.about{
+    font-size: 35px;
+    text-align:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f9532d;
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
 
